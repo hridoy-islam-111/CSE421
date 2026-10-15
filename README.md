@@ -60,3 +60,4 @@ This repository contains lab tasks, socket programming implementations, and cour
 * **Language:** Python 3.x
 * **Core Libraries:** `socket`, `threading`, `sys`, `os`
 * **Analysis Tools:** Wireshark, Cisco Packet Tracer, Command-line network utilities (`ping`, `traceroute`, `netstat`, `ipconfig`)
+
