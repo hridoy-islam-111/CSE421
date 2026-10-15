@@ -43,5 +43,16 @@ def msg_to_be_sent(msg):
     print(client.recv(2048).decode(format))
 
 
-msg_to_be_sent(f"IP address of the client is {host_ip_address} and the device name is {hostname}")
-msg_to_be_sent(disconnected)
+# msg_to_be_sent(f"IP address of the client is {host_ip_address} and the device name is {hostname}")
+# msg_to_be_sent("Tree")
+# msg_to_be_sent("Flower")
+# msg_to_be_sent(disconnected)
+while True:
+    msg=input("Enter the message to be sent to the server: ")
+    if msg == "end":
+        msg_to_be_sent("end")
+        print("Terminating connection with the server")
+        break
+    else:
+        msg_to_be_sent(msg)
+        
