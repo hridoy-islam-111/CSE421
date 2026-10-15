@@ -39,7 +39,6 @@ print("Server is listening for connections...")
 def handle_clients(conn, addr):
     print("Connected to", addr)
     connected = True
-    # (Done already)
 
     while connected:
         message_length = conn.recv(buffer).decode(format)
